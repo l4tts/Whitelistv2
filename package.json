@@ -1,1 +1,17 @@
-
+{
+  "name": "roblox-auth-server",
+  "version": "1.0.0",
+  "description": "Secure authentication server for Roblox whitelist system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  }
+}
